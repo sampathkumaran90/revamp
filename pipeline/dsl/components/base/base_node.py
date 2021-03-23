@@ -12,5 +12,7 @@ def _abstract_property() -> Any:
 
 
 class BaseNode(with_metaclass(abc.ABC, json_utils.Jsonable)):
+  
+
 
 
